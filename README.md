@@ -18,6 +18,7 @@
 |Example|Input|Output|Page|
 |---|---|---|---|
 
+
 ## Installation
 
 1.  Download a web browser, such as Apple Safari, Brave, Google Chrome, Microsoft Edge, Mozilla Firefox, or Yandex.
