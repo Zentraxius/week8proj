@@ -15,7 +15,8 @@
 8. When clicking on a Vendor, a page should display with that Vendor's orders.
 9. A link must be provided to a page that allows Pierre to fill out a form to create a new order for a Vendor, eg /vendors/1/orders/new
 
-
+|Example|Input|Output|Page|
+|---|---|---|---|
 
 ## Installation
 
