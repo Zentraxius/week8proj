@@ -1,8 +1,12 @@
+@{
+  Layout = "_Layout";
+}
+
 @using PierresWebsite.Models;
 
 <h1>Vendors</h1>
 
-@if (@Model.CountModel == 0)
+@if (@Model.Count == 0)
 {
   <h3>No vendors have been added yet!</h3>
 }
