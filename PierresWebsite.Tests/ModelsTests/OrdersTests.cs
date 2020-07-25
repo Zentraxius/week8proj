@@ -13,10 +13,20 @@ namespace PierresWebsite.Tests
       Order.ClearAll();
     }
     [TestMethod]
-    public void OrderTest1_DoesOrderExist_ExistYes()
+    public void OrderConfirmation_DoesOrderExist_ExistYes()
     {
     Order newOrder = new Order("Test");
     Assert.AreEqual(typeof(Order), newOrder.GetType());
+    }
+    [TestMethod]
+    public void OrderDescription_DoesOrderHaveDescription_Exists()
+    {
+      string description = "Example String";
+      Order newOrder = new Order(description);
+
+      string result = newOrder.Description;
+
+      Assert.AreEqual(description, result);
     }
   }
 }
