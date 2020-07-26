@@ -5,6 +5,7 @@
 #### By Cody Fritz
 
 ## Specification
+
 1. Application is built in MVC format
 2. Application supports and uses Razor functionality
 3. Application has a Vendor class, with support for the Vendor's name, a description of the vendor, and a list of orders belonging to the vendor.
@@ -15,9 +16,10 @@
 8. When clicking on a Vendor, a page should display with that Vendor's orders.
 9. A link must be provided to a page that allows Pierre to fill out a form to create a new order for a Vendor, eg /vendors/1/orders/new
 
-|Example|Input|Output|Page|
-|---|---|---|---|
-
+| Example                | Input                          | Output                                | Page        |
+| ---------------------- | ------------------------------ | ------------------------------------- | ----------- |
+| No Vendor              | Add "Stacy's Bakery"           | New Vendor: Stacy's Bakery            | Vendor List |
+| Vendor: Stacy's Bakery | Add Order "240 Crescent Rolls" | Stacy's Bakery: 1) 240 Crescent Rolls | Orders      |
 
 ## Installation
 
