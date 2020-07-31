@@ -8,7 +8,7 @@
 <ol>
 @foreach (var order in @Model["orders"])
 {
-  <li><a href='/vendors/@Model["vendor"].Id/orders/new'>@order.Description</a></li>
+  <li><a href='/vendors/@Model["vendor"].Id/orders/@order.Id'>@order.Description</a></li>
 }
 </ol>
 
